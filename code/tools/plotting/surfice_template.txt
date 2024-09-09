@@ -1,0 +1,14 @@
+import gl
+import os
+gl.resetdefaults()
+gl.meshload("{mesh_filename}")
+
+gl.nodeload("{node_filename}")
+gl.nodesize(1.8, 1)
+gl.shaderxray(0.6, .3)
+gl.bmpzoom(1)
+{node_thresh}
+
+{save_axial}
+{save_coronal}
+{save_sagittal}
